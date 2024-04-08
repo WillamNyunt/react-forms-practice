@@ -6,7 +6,6 @@ export default function Signup() {
         const acquisitionChannel = fd.getAll('acquisition');
         const data = Object.fromEntries(fd.entries());
         data.acquisition = acquisitionChannel;
-        console.log(data)
     }
 
 
